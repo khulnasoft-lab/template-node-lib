@@ -21,7 +21,7 @@ node library project template
 - lint commit message format against [Conventional Commits][]
 - test on all LTS versions of Node.js
 - run `npm audit` before releasing / testing to keep a higher security standard
-- repositories are kept up to date using [`@khulnasoft-lab/action-template-repository-sync`][]
+- repositories are kept up to date using [`@khulnasoft/action-template-repository-sync`][]
 
 ##### Local Automation
 
@@ -35,7 +35,7 @@ node library project template
 
 #### GitHub Templates
 
-> Automated through [`@khulnasoft-lab/action-template-repository-sync`][]
+> Automated through [`@khulnasoft/action-template-repository-sync`][]
 
 1.  create a repository from the template
 2.  clone locally
@@ -66,7 +66,7 @@ use [Docker Compose][] to run tasks locally:
   [dependabot-auto-merge]: https://github.com/marketplace/actions/dependabot-auto-merge
   [mega-linter]: https://oxsecurity.github.io/megalinter/
   [Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
-  [`@khulnasoft-lab/action-template-repository-sync`]: https://github.com/khulnasoft-lab/action-template-repository-sync
+  [`@khulnasoft/action-template-repository-sync`]: https://github.com/khulnasoft/action-template-repository-sync
   [Docker Compose]: https://docs.docker.com/compose/
   [pandoc]: https://pandoc.org/
   [template]: ./docs/README.template
