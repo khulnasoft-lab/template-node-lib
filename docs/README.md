@@ -13,7 +13,7 @@
 - lint commit message format against [Conventional Commits]
 - test on all LTS versions of Node.js
 - run `npm audit` before releasing / testing to keep a higher security standard
-- repositories are kept up to date using [`@khulnasoft-lab/action-template-repository-sync`][]
+- repositories are kept up to date using [`@khulnasoft/action-template-repository-sync`][]
 
 ##### Local Automation
 
@@ -27,7 +27,7 @@
 
 #### GitHub Templates
 
-> Automated through [`@khulnasoft-lab/action-template-repository-sync`][]
+> Automated through [`@khulnasoft/action-template-repository-sync`][]
 
 1. create a repository from the template
 1. clone locally
@@ -61,4 +61,4 @@ use [Docker Compose][docker compose] to run tasks locally:
 [semantic-release]: https://github.com/marketplace/actions/conventional-semantic-release
 [mega-linter]: https://oxsecurity.github.io/megalinter/
 [Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
-[`@khulnasoft-lab/action-template-repository-sync`]: https://github.com/khulnasoft-lab/action-template-repository-sync
+[`@khulnasoft/action-template-repository-sync`]: https://github.com/khulnasoft/action-template-repository-sync
